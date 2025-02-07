@@ -18,7 +18,7 @@ int main() {
             cout << "Next prime after " << n << " is: " << next << endl;
             break;
         }
-        next++; // Check next numbe
+        next++;
     }
 
     return 0;
