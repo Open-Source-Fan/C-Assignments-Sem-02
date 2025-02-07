@@ -1,3 +1,4 @@
+// if a number is prime print all its factors
 #include <iostream>
 using namespace std;
 
@@ -16,7 +17,7 @@ int main() {
     if (count == 0 && n > 1) {  
         cout << n << " is a prime number.\n";
         cout << "Factors: ";
-        for (i = 1; i <= n; i++) {  // Prime hai toh saare factors print karo
+        for (i = 1; i <= n; i++) {  
             if (n % i == 0) {
                 cout << i << " ";
             }
