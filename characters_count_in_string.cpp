@@ -7,11 +7,11 @@ int main() {
     cout << "Enter a string: ";
     cin >> str;  
 
-    int freq[26] = {0};  // Sirf alphabets ke liye (A-Z ya a-z)
+    int freq[26] = {0}; 
 
     for (char ch : str) {  
-        ch = tolower(ch);  // Sabko lowercase bana do
-        freq[ch - 'a']++;  // Count badhao
+        ch = tolower(ch); 
+        freq[ch - 'a']++; 
     }
 
     cout << "Character frequencies:\n";
